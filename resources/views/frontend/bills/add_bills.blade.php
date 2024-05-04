@@ -210,14 +210,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-3">
             <div class="page-title-box">
                 <div class="page-title-right">
                     <a href="#" class="btn btn-block btn-danger">Submit & Credit Collection</a>
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-3">
             <div class="page-title-box">
                 <div class="page-title-right">
                     <a href="#" class="btn btn-block btn-primary">Submit & Add New Bill</a>

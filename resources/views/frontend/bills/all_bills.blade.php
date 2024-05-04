@@ -156,6 +156,6 @@
 @section('js')
 
     <!-- Datatables init -->
-    <script src="{{ asset('backend/assets/js/pages/datatables.init.js') }}"></script>
+    {{-- <script src="{{ asset('backend/assets/js/pages/datatables.init.js') }}"></script> --}}
 
 @stop
