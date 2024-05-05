@@ -428,56 +428,156 @@
                                         </div>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="card-body col-md-3">
-                                            <!-- Date -->
-                                            <div class="form-group">
-                                                <label>Invoice Date</label>
-                                                <div class="input-group date" id="reservationdate"
-                                                    data-target-input="nearest">
-                                                    <input type="text" class="form-control datetimepicker-input"
-                                                        data-target="#reservationdate" placeholder="19/05/2024">
-                                                    <div class="input-group-append" data-target="#reservationdate"
-                                                        data-toggle="datetimepicker">
-                                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="row col-md-8">
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <label>Invoice Date</label>
+                                                    <div class="input-group date" id="reservationdate"
+                                                        data-target-input="nearest">
+                                                        <input type="text" class="form-control datetimepicker-input"
+                                                            data-target="#reservationdate" placeholder="19/05/2024">
+                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                            data-toggle="datetimepicker">
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Invoice No</label>
+                                                    <input type="text" class="form-control" placeholder="A290">
+                                                </div>
+                                            </div>
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Bill Amount</label>
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="4,000">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Pay Now</label>
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="2,000">
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
 
-                                        <div class="card-body col-md-3">
-                                            <!-- Date -->
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Invoice Number</label>
-                                                <input type="text" class="form-control" placeholder="14101994">
-                                            </div>
-                                        </div>
-                                        <div class="card-body col-md-3">
-                                            <!-- Date -->
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Bill Amount</label>
-                                                <div class="input-group mb-3">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text">Rs. </span>
+                                        <div class="row col-md-8">
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group date" id="reservationdate"
+                                                        data-target-input="nearest">
+                                                        <input type="text" class="form-control datetimepicker-input"
+                                                            data-target="#reservationdate" placeholder="30/05/2024">
+                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                            data-toggle="datetimepicker">
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <input type="text" class="form-control" placeholder="4,000">
                                                 </div>
                                             </div>
+
+                                            <div class="card-body col-md-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="A340">
+                                                </div>
+                                            </div>
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="15,000">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="7,000">
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
 
-                                        <div class="card-body col-md-3">
-                                            <!-- Date -->
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Pay Now</label>
-                                                <div class="input-group mb-3">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text">Rs. </span>
+                                        <div class="row col-md-8">
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group date" id="reservationdate"
+                                                        data-target-input="nearest">
+                                                        <input type="text" class="form-control datetimepicker-input"
+                                                            data-target="#reservationdate" placeholder="19/05/2024">
+                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                            data-toggle="datetimepicker">
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <input type="text" class="form-control" placeholder="2,000">
                                                 </div>
                                             </div>
+
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="A550">
+                                                </div>
+                                            </div>
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="12,500">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-body col-md-3">
+                                                <!-- Date -->
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rs. </span>
+                                                        </div>
+                                                        <input type="text" class="form-control" placeholder="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
-                        
                                     </div>
                                 </div>
                             </div>
