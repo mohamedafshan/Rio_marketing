@@ -44,8 +44,7 @@
             </div>
             <br>
 
-           
-            <div class="row">
+       <div class="row">
                 <div class="col-sm-12">
                     <table id="example1" class="table table-bordered table-striped dataTable dtr-inline"
                         aria-describedby="example1_info">
@@ -126,5 +125,5 @@
 @stop
 
 @section('js')
-<script> let table = new DataTable('#example1');</script>
+
 @stop
