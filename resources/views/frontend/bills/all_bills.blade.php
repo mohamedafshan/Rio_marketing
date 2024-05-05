@@ -30,21 +30,21 @@
                 <div class="col-2">
                     <div class="page-title-box">
                         <div class="page-title-right">
-                            <a href="#" class="btn btn-block btn-success btn-sm">Add Customer</a>
+                            <a href="#" class="btn btn-block btn-success btn-lg">Add Customer</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="page-title-box">
                         <div class="page-title-right">
-                            <a href="#" class="btn btn-block btn-primary btn-sm">Add Customer</a>
+                            <a href="#" class="btn btn-block btn-primary btn-lg ">Add Customer</a>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
 
-            <div class="row">
+       <div class="row">
                 <div class="col-sm-12">
                     <table id="example1" class="table table-bordered table-striped dataTable dtr-inline"
                         aria-describedby="example1_info">
@@ -126,19 +126,4 @@
 
 @section('js')
 
-    <!-- Datatables init -->
-    {{-- <script src="{{ asset('backend/assets/js/pages/datatables.init.js') }}"></script> --}}
-    <script>
-        $(function() {
-            $('#example1').DataTable({
-                "paging": true,
-                "lengthChange": false,
-                "searching": true,
-                "ordering": true,
-                "info": true,
-                "autoWidth": false,
-                "responsive": true,
-            });
-        });
-    </script>
 @stop
