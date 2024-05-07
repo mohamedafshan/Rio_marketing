@@ -30,14 +30,14 @@
                 <div class="col-2">
                     <div class="page-title-box">
                         <div class="page-title-right">
-                            <a href="#" class="btn btn-block btn-success btn-sm">Add Customer</a>
+                            <a href="#" class="btn btn-block btn-success btn-lg">Add Customer</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="page-title-box">
                         <div class="page-title-right">
-                            <a href="#" class="btn btn-block btn-primary btn-sm">Add Customer</a>
+                            <a href="#" class="btn btn-block btn-primary btn-lg ">Add Customer</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
         $(function() {
             $('#example1').DataTable({
                 "paging": true,
-                "lengthChange": true,
+                "lengthChange": false,
                 "searching": true,
                 "ordering": true,
                 "info": true,

@@ -34,10 +34,10 @@
                         <!-- Date -->
                         <div class="form-group">
                             <label>Date:</label>
-                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input"
-                                    data-target="#reservationdate" placeholder="19/05/2024">
-                                <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group date datepicker-input" data-target-input="nearest">
+                                <input class="form-control datetimepicker-input" type="text"
+                                    placeholder="19/05/2024">
+                                <div class="input-group-append" data-toggle="datetimepicker">
                                     <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
 
                 <div class="row">
                     <div class="card-body col-md-12">
-                        <table id="example1" class="table table-bordered table-striped dataTable dtr-inline"
+                        <table id="Mytable" class="table table-bordered table-striped dataTable dtr-inline"
                             aria-describedby="example1_info">
                             <thead>
                                 <tr>
@@ -204,11 +204,10 @@
                                             <!-- Date -->
                                             <div class="form-group">
                                                 <label>Invoice Date:</label>
-                                                <div class="input-group date" id="reservationdate"
-                                                    data-target-input="nearest">
-                                                    <input type="text" class="form-control datetimepicker-input"
-                                                        data-target="#reservationdate" placeholder="19/05/2024">
-                                                    <div class="input-group-append" data-target="#reservationdate"
+                                                <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                    <input class="form-control datetimepicker-input"
+                                                        type="text" placeholder="19/05/2024">
+                                                    <div class="input-group-append" data-target="#invoiceDate"
                                                         data-toggle="datetimepicker">
                                                         <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                     </div>
@@ -278,11 +277,10 @@
                                             <!-- Date -->
                                             <div class="form-group">
                                                 <label>Cheque Date</label>
-                                                <div class="input-group date" id="reservationdate"
-                                                    data-target-input="nearest">
-                                                    <input type="text" class="form-control datetimepicker-input"
-                                                        data-target="#reservationdate" placeholder="19/05/2024">
-                                                    <div class="input-group-append" data-target="#reservationdate"
+                                                <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                    <input class="form-control datetimepicker-input"
+                                                        type="text" placeholder="19/05/2024">
+                                                    <div class="input-group-append" data-target="#invoiceDate"
                                                         data-toggle="datetimepicker">
                                                         <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                     </div>
@@ -392,11 +390,10 @@
                                             <!-- Date -->
                                             <div class="form-group">
                                                 <label>Cheque Date</label>
-                                                <div class="input-group date" id="reservationdate"
-                                                    data-target-input="nearest">
-                                                    <input type="text" class="form-control datetimepicker-input"
-                                                        data-target="#reservationdate" placeholder="19/05/2024">
-                                                    <div class="input-group-append" data-target="#reservationdate"
+                                                <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                    <input class="form-control datetimepicker-input"
+                                                        type="text" placeholder="19/05/2024">
+                                                    <div class="input-group-append" data-target="#invoiceDate"
                                                         data-toggle="datetimepicker">
                                                         <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                     </div>
@@ -430,31 +427,29 @@
 
                                     <div class="row d-flex justify-content-center">
                                         <div class="row col-md-8">
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <label>Invoice Date</label>
-                                                    <div class="input-group date" id="reservationdate"
-                                                        data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input"
-                                                            data-target="#reservationdate" placeholder="19/05/2024">
-                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                    <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                        <input class="form-control datetimepicker-input"
+                                                            type="text" placeholder="19/05/2024">
+                                                        <div class="input-group-append" data-target="#invoiceDate"
                                                             data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
-                                                            </div>
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Invoice No</label>
                                                     <input type="text" class="form-control" placeholder="A290">
                                                 </div>
                                             </div>
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Bill Amount</label>
@@ -467,7 +462,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Pay Now</label>
@@ -483,28 +478,26 @@
                                         </div>
 
                                         <div class="row col-md-8">
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
-                                                    <div class="input-group date" id="reservationdate"
-                                                        data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input"
-                                                            data-target="#reservationdate" placeholder="30/05/2024">
-                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                    <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                        <input class="form-control datetimepicker-input"
+                                                            type="text" placeholder="19/05/2024">
+                                                        <div class="input-group-append" data-target="#invoiceDate"
                                                             data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
-                                                            </div>
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="A340">
                                                 </div>
                                             </div>
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <div class="input-group mb-3">
@@ -516,7 +509,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <div class="input-group mb-3">
@@ -531,32 +524,30 @@
                                         </div>
 
                                         <div class="row col-md-8">
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
-                                                    <div class="input-group date" id="reservationdate"
-                                                        data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input"
-                                                            data-target="#reservationdate" placeholder="19/05/2024">
-                                                        <div class="input-group-append" data-target="#reservationdate"
+                                                    <div class="input-group date datepicker-input" id="invoiceDate" data-target-input="nearest">
+                                                        <input class="form-control datetimepicker-input"
+                                                            type="text" placeholder="19/05/2024">
+                                                        <div class="input-group-append" data-target="#invoiceDate"
                                                             data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i>
-                                                            </div>
+                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="A550">
                                                 </div>
                                             </div>
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
-                                                    <div class="input-group mb-3">
+                                                    <div class="input-group mb-3 py-0">
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text">Rs. </span>
                                                         </div>
@@ -565,7 +556,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="card-body col-md-3">
+                                            <div class="card-body col-md-3 py-0">
                                                 <!-- Date -->
                                                 <div class="form-group">
                                                     <div class="input-group mb-3">
@@ -592,32 +583,49 @@
             </div>
         </div>
     </div>
-
-
-
-
 @stop
 
 @section('css')
-    {{-- Add here extra stylesheets --}}
-    {{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+        rel="stylesheet">
+    
 @stop
 
 @section('js')
+    <!-- jQuery CDN link -->
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
+
+    <!-- Bootstrap JS CDN link (required for Datepicker) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-     <script>
-        $(function() {
-            $('#example1').DataTable({
-                "paging": true,
-                "lengthChange": false,
-                "searching": true,
-                "ordering": true,
-                "info": true,
-                "autoWidth": false,
-                "responsive": true,
+
+    <!-- Bootstrap Datepicker JS CDN link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Initialize all datepickers with the class 'datepicker-input'
+            $('.datepicker-input').datepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+                todayHighlight: true
             });
         });
     </script>
+
+<script>
+    $(document).ready(function() {
+        $('#Mytable').DataTable({
+            "paging": true,
+            "lengthChange": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "autoWidth": true,
+            "responsive": true
+        });
+    });
+</script>
 @stop
